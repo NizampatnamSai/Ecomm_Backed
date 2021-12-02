@@ -1,0 +1,37 @@
+{
+  "name": "ecomm_backend",
+  "version": "1.0.0",
+  "description": "API server for our ecommerce application",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon -w src --exec \"babel-node src \"",
+    "build":"babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NizampatnamSai/Ecomm_Backed.git"
+  },
+  "keywords": [
+    "v"
+  ],
+  "author": "NizampatnamSai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NizampatnamSai/Ecomm_Backed/issues"
+  },
+  "homepage": "https://github.com/NizampatnamSai/Ecomm_Backed#readme",
+  "dependencies": {
+    "cros": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/preset-env": "^7.16.4",
+    "nodemon": "^2.0.15"
+  }
+}

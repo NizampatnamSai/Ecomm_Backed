@@ -16,3 +16,11 @@ jobs:
       - uses: actions/checkout@v2
       - name: test workflow
         run: echo "YAY this workflow is running"
+      - name: Add github username
+        run: git config --gloabal user.name 'NizampatnamSai'
+      - name: Add github email
+        run: git config --gloabal user.email 'jesusjoshuajesus@gmail.com'
+      - name: add heroku remote 
+        run: git remote add heroku https://heroku:4b09a15b-57c0-4351-92ae-970a420418c7@git.heroku.com/nsai-recipe-api.git 
+      - name: push to heroku remote
+         run: git push heroku main

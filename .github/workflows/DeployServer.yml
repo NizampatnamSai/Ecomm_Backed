@@ -21,7 +21,7 @@ jobs:
       - name: Add github email
         run: git config --global user.email 'jesusjoshuajesus@gmail.com'
       - name: add heroku remote 
-        run: git remote add heroku https://heroku:4b09a15b-57c0-4351-92ae-970a420418c7@git.heroku.com/nsai-recipe-api.git 
+        run: git remote add heroku https://heroku:${{secrets.HUROKU_SECRET_KEY}}@git.heroku.com/${{secrets.HEROKU_APP_NAME}}.git 
       - name: Fetch repo
         run: git fetch --unshallow
       - name: push to heroku remote

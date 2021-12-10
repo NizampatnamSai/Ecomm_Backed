@@ -8,7 +8,7 @@ import authRoutes from './routes/authRoutes'
 import categoryRoutes from './routes/categoryRoutes'
 import productRoutes from './routes/productRoutes'
 console.log(process.env.DB_URL)
-
+console.log('sfd')
 
 
 const app=express()

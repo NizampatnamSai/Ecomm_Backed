@@ -25,4 +25,4 @@ jobs:
       - name: Fetch repo
         run: git fetch --unshallow
       - name: push to heroku remote
-        run: git push heroku master --force
+        run: git push heroku main --force

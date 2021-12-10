@@ -13,7 +13,7 @@ console.log('first')
 
 const app=express()
 const port=process.env.PORT ||  3003 ;
-console.log('Happy! ty jesus')
+console.log('Happy!! ty jesus')
 connectDB()
 app.use(cors())
 
